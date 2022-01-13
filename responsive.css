@@ -1,0 +1,55 @@
+@media (max-width:420px) {
+    /* COMMON */
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .row {
+        max-width: 420px;
+        padding: 10px 20px;
+    }
+      
+    .row::after {
+        display: none;
+    }
+
+    img {
+        height: 80px;
+    }
+    
+    /* BLOCCO LEZIONI */
+    #lezioni .row {
+        background-color: #F2F2CD;
+    }
+    
+    #lezioni .row {
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    #lezioni .row>.left,
+    #lezioni .row>.right {
+        width: 100%;
+        float: none;
+        font-size: 0.7em;
+    }
+    
+    #lezioni .row>h1 {
+        font-size: 1.5em;
+    }
+
+    #lezioni .row>h3 {
+        font-size: 1em;
+    }
+
+    
+
+
+
+    
+}
